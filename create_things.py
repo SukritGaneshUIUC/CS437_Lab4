@@ -10,9 +10,6 @@ POLICY = 'My_Iot_Policy'
 GROUP = 'cars'
 GROUP_ARN = 'arn:aws:iot:us-west-2:262628876145:thinggroup/cars'
 
-# ACCESS KEY: AKIAT2JPGT5YUWVE5KXF
-# SECRET ACCESS KEY: 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
-
 # function to create a single thing and attach to the group specified in GROUP
 def createThing(name):
     os.mkdir(f'certificates/{name}')
